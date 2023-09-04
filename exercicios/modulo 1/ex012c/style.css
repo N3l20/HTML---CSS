@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;  
+    font-family: Arial;
+    font-size: 20px;
+  }
+  h2{
+      color: blue;
+  }
+  h1{
+      color: red;
+  }
+  p{
+      text-align:justify;
+  }

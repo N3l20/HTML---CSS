@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tenta abrir este site em varios dispositivos diferentes ou mude o tamanho da janela do navegador</p>
+    <picture>
+        <source media="(max-width: 720px)" srcset="imagens/FotoP.png" type="image/png">
+        <source media="(max-width: 1020px)" srcset="imagens/FotoM.png" type="image/png">
+        <img src="imagens/FotoG.png" alt="foto dinamica">
+    </picture>
+    <h1>Reproduzir Audio</h1>
+    <audio src="midia/super-mario-bros-theme-song.mp3" controls loop></audio> <!--mp3 wav ogg-->
+    <h1>Reproduzir Video</h1>
+    <h2>Videos hospedados localmente</h2>
+    <video src="midia/Video (1080P).mp4" width="500" controls loop></video>
+    <h2>Videos hospedados externamente</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/B1J6Ou4q8vE?si=i7-on41Ok8CGLUbi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--incorporar no youtube-->
+    <p><a href="desafio.html">Desafio</a></p>
+</body>
+</html>
